@@ -1,4 +1,4 @@
-# Projeto em PHP - Bootstrap, PDO & MySQL
+# Projeto em Spring Boot - Java, Materialize & PostgreSQL
 
 Desenvolvimento de um projeto de Sistema de Cadastro de Eventos com acesso ao banco de dados PostgreSQL e linguagem Java com Spring Boot.
 
