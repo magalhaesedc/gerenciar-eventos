@@ -18,8 +18,7 @@ Desenvolvimento de um projeto de Sistema de Cadastro de Eventos com acesso ao ba
 ## Configuração do Projeto:
 
 - Para execução do projeto em servidor local (localhost) necessita descomentar os Bean referente as configurações do banco e comentar o Bean referente as configurações locais que foram usadas para hospedagem no Heroku.
-- Editar a classe **DataConfiguration** 
-- 
+- Editar a classe **DataConfiguration**
 ```
 dataSource.setUrl("jdbc:postgresql://<nomeDoDominioOuIP>:<porta>/<nomeDaBase>");
 dataSource.setUsername(<usuarioDoPostgreSQL>);
