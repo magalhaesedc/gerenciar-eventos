@@ -15,6 +15,7 @@ import java.net.URISyntaxException;
 @Configuration
 public class DataConfiguration {
 
+    /* Comentar esse Bean caso for executar em servidor local */
     @Bean
     public BasicDataSource dataSource() throws URISyntaxException {
         URI dbUri = new URI(System.getenv("DATABASE_URL"));
@@ -31,7 +32,10 @@ public class DataConfiguration {
         return basicDataSource;
     }
 
-    /*@Bean
+
+    /* Remover comentário caso for executar em servidor local
+
+    @Bean
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
